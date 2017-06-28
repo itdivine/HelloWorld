@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE root>
+<!DOCTYPE root [
+        <!ELEMENT root (country)>
+        <!ELEMENT country    (#PCDATA)>
+        ]>
 <root>
 	<country>安圭拉,Anguilla</country>
 </root>
